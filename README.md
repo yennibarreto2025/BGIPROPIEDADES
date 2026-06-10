@@ -1,42 +1,31 @@
 # BGI Propiedades — Sitio One-Page
 
-Sitio web estático de una página para BGI Propiedades (gestión inmobiliaria de alto valor).
+Portafolio web profesional desarrollado para una experta en gestión inmobiliaria de alto valor. 
+En formato sitio web estático de una página para BGI Propiedades (gestión inmobiliaria de alto valor).
+Diseño minimalista, moderno y completamente responsivo.
 
-Contenido:
-- `index.html` — Estructura y secciones (hero, nosotros, portafolio, clientes, contacto, footer).
-- `style.css` — Estilos y diseño responsivo.
-- `script.js` — Interacciones: menú móvil, scroll suave, formulario EmailJS, carrusel.
+## Tecnologías
+- HTML5 semántico
+- CSS3 (Grid, Flexbox, animaciones, media queries)
+- JavaScript vanilla
+- FontAwesome 6
+- Google Fonts (Montserrat)
+- EmailJS (formulario de contacto)
 
-Cómo usar
+## Secciones
+- **Hero** — Propuesta de valor y estadísticas clave
+- **Nosotros** — Trayectoria y perfil profesional
+- **Operaciones** — Grilla de propiedades con efecto hover
+- **Clientes** — Carrusel infinito de logos
+- **Contacto** — Formulario integrado con EmailJS
+- **Footer** — Información corporativa y redes sociales
 
-1. Abrir `index.html` en tu navegador.
-2. Para envío real de formulario, configura EmailJS en `script.js` (valores de `EMAILJS_*`).
-
-Inicializar repositorio Git (local)
-
-```bash
-cd "c:\Users\Nitro 5\Desktop\BGI CODIGO"
-# Inicializar git
-git init
-git add .
-git commit -m "Initial commit — one page site for BGI Propiedades"
-```
-
-Subir a GitHub (opciones)
-
-- Usando GitHub CLI (`gh`):
-
-```bash
-gh repo create bgi-propiedades --public --source=. --remote=origin --push
-```
-
-- Manual (crear repo en github.com y conectar remote):
-
-```bash
-git remote add origin https://github.com/<tu-usuario>/<tu-repo>.git
-git branch -M main
-git push -u origin main
-```
+## Características
+- Navegación con scroll suave
+- Diseño responsive (mobile, tablet, desktop)
+- Carrusel automático de clientes
+- Botón flotante de WhatsApp
+- Imágenes optimizadas con `object-fit: cover`
 
 Licencia
 
