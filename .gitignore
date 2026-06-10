@@ -1,0 +1,24 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Env files
+.env
+
+# VSCode
+.vscode/
+
+# Build outputs
+dist/
+
+# Temporary
+*.tmp
+*.bak

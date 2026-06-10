@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BGI Propiedades – Gestión Inmobiliaria de Alto Valor</title>
+
+  <!-- Google Fonts: Montserrat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- EmailJS -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#hero" class="logo">
+        <span class="logo-mark">BGI</span>
+        <span class="logo-text">Propiedades</span>
+      </a>
+      <nav class="main-nav" id="mainNav">
+        <a href="#nosotros" class="nav-link">Nosotros</a>
+        <a href="#operaciones" class="nav-link">Operaciones</a>
+        <a href="#clientes" class="nav-link">Clientes</a>
+        <a href="#contacto" class="nav-btn">Contacto</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section id="hero" class="hero-section">
+    <div class="hero-inner">
+      <div class="hero-content">
+        <p class="hero-eyebrow">Gestión Inmobiliaria de Alto Valor</p>
+        <h1 class="hero-title">Cada propiedad,<br /><span>una operación estratégica.</span></h1>
+        <p class="hero-desc">Asesoría experta en compra, venta y arriendo de propiedades selectas en los mejores sectores del país. Precisión, discreción y resultados.</p>
+        <div class="hero-actions">
+          <a href="#operaciones" class="btn btn-primary">Ver portafolio</a>
+          <a href="#contacto" class="btn btn-outline">Hablar con un experto</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-num">+120</span>
+            <span class="stat-label">Operaciones cerradas</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">15+</span>
+            <span class="stat-label">Años de experiencia</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">98%</span>
+            <span class="stat-label">Satisfacción de clientes</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=900&q=85" alt="Propiedad de lujo BGI" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== NOSOTROS ===================== -->
+  <section id="nosotros" class="nosotros-section">
+    <div class="nosotros-inner">
+      <div class="nosotros-image">
+        <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=900&q=85" alt="BGI Propiedades - Equipo profesional" />
+        <div class="nosotros-badge">
+          <span class="badge-num">15+</span>
+          <span class="badge-text">años de trayectoria</span>
+        </div>
+      </div>
+      <div class="nosotros-content">
+        <p class="section-eyebrow">Sobre nosotros</p>
+        <h2 class="section-title">Experiencia que convierte propiedades en patrimonio</h2>
+        <p class="nosotros-desc">BGI Propiedades nació de la convicción de que cada operación inmobiliaria de alto valor merece una gestión personalizada, estratégica y discreta. Con más de 15 años en el mercado de propiedades selectas, hemos construido una red de confianza con los clientes más exigentes del sector.</p>
+        <p class="nosotros-desc">Nuestra experta principal combina una formación en negocios inmobiliarios con una visión analítica del mercado, asegurando que cada transacción maximice el valor y minimice los tiempos de cierre.</p>
+        <ul class="nosotros-list">
+          <li><i class="fa-solid fa-check"></i> Gestión integral de compra y venta</li>
+          <li><i class="fa-solid fa-check"></i> Asesoría en inversión patrimonial</li>
+          <li><i class="fa-solid fa-check"></i> Negociación discreta y eficiente</li>
+          <li><i class="fa-solid fa-check"></i> Presencia en los mercados más exclusivos</li>
+        </ul>
+        <a href="#contacto" class="btn btn-primary">Agendar una reunión</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== OPERACIONES ===================== -->
+  <section id="operaciones" class="operaciones-section">
+    <div class="operaciones-header">
+      <p class="section-eyebrow">Portafolio selectivo</p>
+      <h2 class="section-title">Operaciones destacadas</h2>
+      <p class="operaciones-subtitle">Una selección de las transacciones más representativas gestionadas con precisión y resultados excepcionales.</p>
+    </div>
+    <div class="property-grid">
+
+      <!-- Card 1 -->
+      <div class="property-card">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=700&q=80" alt="El Golf / Las Condes" />
+          <div class="card-location-tag">El Golf / Las Condes</div>
+        </div>
+        <div class="card-overlay">
+          <h3 class="overlay-title">El Golf / Las Condes</h3>
+          <div class="overlay-item">
+            <i class="fa-solid fa-handshake"></i>
+            <div>
+              <span class="overlay-label">Operación realizada</span>
+              <span class="overlay-value">Venta exitosa de departamento premium</span>
+            </div>
+          </div>
+          <div class="overlay-item">
+            <i class="fa-solid fa-briefcase"></i>
+            <div>
+              <span class="overlay-label">Trabajo gestionado</span>
+              <span class="overlay-value">Negociación, tasación y cierre en 45 días</span>
+            </div>
+          </div>
+          <div class="overlay-item">
+            <i class="fa-solid fa-ruler-combined"></i>
+            <div>
+              <span class="overlay-label">Superficie referencial</span>
+              <span class="overlay-value">185 m² + 2 estacionamientos + bodega</span>
+            </div>
+          </div>
+          <a href="#contacto" class="overlay-btn">Ver más detalles</a>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="property-card">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=700&q=80" alt="Vitacura / Lo Barnechea" />
+          <div class="card-location-tag">Vitacura / Lo Barnechea</div>
+        </div>
+        <div class="card-overlay">
+          <h3 class="overlay-title">Vitacura / Lo Barnechea</h3>
+          <div class="overlay-item">
+            <i class="fa-solid fa-handshake"></i>
+            <div>
+              <span class="overlay-label">Operación realizada</span>
+              <span class="overlay-value">Arriendo de casa con jardín a empresa extranjera</span>
+            </div>
+          </div>
+          <div class="overlay-item">
+            <i class="fa-solid fa-briefcase"></i>
+            <div>
+              <span class="overlay-label">Trabajo gestionado</span>
+              <span class="overlay-value">Due diligence, contrato y gestión de ingreso</span>
+            </div>
+          </div>
+          <div class="overlay-item">
+            <i class="fa-solid fa-ruler-combined"></i>
+            <div>
+              <span class="overlay-label">Superficie referencial</span>
+              <span class="overlay-value">320 m² construidos / 650 m² terreno</span>
+            </div>
+          </div>
+          <a href="#contacto" class="overlay-btn">Ver más detalles</a>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="property-card">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=700&q=80" alt="Providencia / Ñuñoa" />
+          <div class="card-location-tag">Providencia / Ñuñoa</div>
+        </div>
+        <div class="card-overlay">
+          <h3 class="overlay-title">Providencia / Ñuñoa</h3>
+          <div class="overlay-item">
+            <i class="fa-solid fa-handshake"></i>
+            <div>
+              <span class="overlay-label">Operación realizada</span>
+              <span class="overlay-value">Compra de departamento para inversión</span>
+            </div>
+          </div>
+          <div class="overlay-item">
+            <i class="fa-solid fa-briefcase"></i>
+            <div>
+              <span class="overlay-label">Trabajo gestionado</span>
+              <span class="overlay-value">Análisis de rentabilidad y asesoría legal</span>
+            </div>
+          </div>
+          <div class="overlay-item">
+            <i class="fa-solid fa-ruler-combined"></i>
+            <div>
+              <span class="overlay-label">Superficie referencial</span>
+              <span class="overlay-value">92 m² + terraza de 18 m²</span>
+            </div>
+          </div>
+          <a href="#contacto" class="overlay-btn">Ver más detalles</a>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="property-card">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1600566753151-384129cf4e3e?w=700&q=80" alt="La Dehesa / Santiago" />
+          <div class="card-location-tag">La Dehesa / Santiago</div>
+        </div>
+        <div class="card-overlay">
+          <h3 class="overlay-title">La Dehesa / Santiago</h3>
+          <div class="overlay-item">
+            <i class="fa-solid fa-handshake"></i>
+            <div>
+              <span class="overlay-label">Operación realizada</span>
+              <span class="overlay-value">Venta de parcela de agrado con vista a la cordillera</span>
+            </div>
+          </div>
+          <div class="overlay-item">
+            <i class="fa-solid fa-briefcase"></i>
+            <div>
+              <span class="overlay-label">Trabajo gestionado</span>
+              <span class="overlay-value">Difusión exclusiva, visitas privadas y cierre</span>
+            </div>
+          </div>
+          <div class="overlay-item">
+            <i class="fa-solid fa-ruler-combined"></i>
+            <div>
+              <span class="overlay-label">Superficie referencial</span>
+              <span class="overlay-value">5.000 m² terreno</span>
+            </div>
+          </div>
+          <a href="#contacto" class="overlay-btn">Ver más detalles</a>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="property-card">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?w=700&q=80" alt="Las Condes / Apoquindo" />
+          <div class="card-location-tag">Las Condes / Apoquindo</div>
+        </div>
+        <div class="card-overlay">
+          <h3 class="overlay-title">Las Condes / Apoquindo</h3>
+          <div class="overlay-item">
+            <i class="fa-solid fa-handshake"></i>
+            <div>
+              <span class="overlay-label">Operación realizada</span>
+              <span class="overlay-value">Arriendo de oficina corporativa a empresa tecnológica</span>
+            </div>
+          </div>
+          <div class="overlay-item">
+            <i class="fa-solid fa-briefcase"></i>
+            <div>
+              <span class="overlay-label">Trabajo gestionado</span>
+              <span class="overlay-value">Búsqueda, comparación y negociación de condiciones</span>
+            </div>
+          </div>
+          <div class="overlay-item">
+            <i class="fa-solid fa-ruler-combined"></i>
+            <div>
+              <span class="overlay-label">Superficie referencial</span>
+              <span class="overlay-value">240 m² en piso 12, vista panorámica</span>
+            </div>
+          </div>
+          <a href="#contacto" class="overlay-btn">Ver más detalles</a>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="property-card">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1613977257363-707ba9348227?w=700&q=80" alt="Chicureo / Colina" />
+          <div class="card-location-tag">Chicureo / Colina</div>
+        </div>
+        <div class="card-overlay">
+          <h3 class="overlay-title">Chicureo / Colina</h3>
+          <div class="overlay-item">
+            <i class="fa-solid fa-handshake"></i>
+            <div>
+              <span class="overlay-label">Operación realizada</span>
+              <span class="overlay-value">Venta de casa en condominio cerrado de lujo</span>
+            </div>
+          </div>
+          <div class="overlay-item">
+            <i class="fa-solid fa-briefcase"></i>
+            <div>
+              <span class="overlay-label">Trabajo gestionado</span>
+              <span class="overlay-value">Estudio de mercado, staging y cierre en 60 días</span>
+            </div>
+          </div>
+          <div class="overlay-item">
+            <i class="fa-solid fa-ruler-combined"></i>
+            <div>
+              <span class="overlay-label">Superficie referencial</span>
+              <span class="overlay-value">410 m² construidos / 800 m² terreno</span>
+            </div>
+          </div>
+          <a href="#contacto" class="overlay-btn">Ver más detalles</a>
+        </div>
+      </div>
+
+      <!-- Card 7 -->
+      <div class="property-card">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1599427303058-f04cbcf4756f?w=700&q=80" alt="Miraflores / Santiago Centro" />
+          <div class="card-location-tag">Miraflores / Stgo. Centro</div>
+        </div>
+        <div class="card-overlay">
+          <h3 class="overlay-title">Miraflores / Stgo. Centro</h3>
+          <div class="overlay-item">
+            <i class="fa-solid fa-handshake"></i>
+            <div>
+              <span class="overlay-label">Operación realizada</span>
+              <span class="overlay-value">Compra de local comercial para fondo de inversión</span>
+            </div>
+          </div>
+          <div class="overlay-item">
+            <i class="fa-solid fa-briefcase"></i>
+            <div>
+              <span class="overlay-label">Trabajo gestionado</span>
+              <span class="overlay-value">Análisis catastral, negociación y escrituración</span>
+            </div>
+          </div>
+          <div class="overlay-item">
+            <i class="fa-solid fa-ruler-combined"></i>
+            <div>
+              <span class="overlay-label">Superficie referencial</span>
+              <span class="overlay-value">180 m² planta libre + bodega subterránea</span>
+            </div>
+          </div>
+          <a href="#contacto" class="overlay-btn">Ver más detalles</a>
+        </div>
+      </div>
+
+      <!-- Card 8 -->
+      <div class="property-card">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=700&q=80" alt="San Carlos de Apoquindo" />
+          <div class="card-location-tag">San Carlos de Apoquindo</div>
+        </div>
+        <div class="card-overlay">
+          <h3 class="overlay-title">San Carlos de Apoquindo</h3>
+          <div class="overlay-item">
+            <i class="fa-solid fa-handshake"></i>
+            <div>
+              <span class="overlay-label">Operación realizada</span>
+              <span class="overlay-value">Arriendo de mansión para familia internacional</span>
+            </div>
+          </div>
+          <div class="overlay-item">
+            <i class="fa-solid fa-briefcase"></i>
+            <div>
+              <span class="overlay-label">Trabajo gestionado</span>
+              <span class="overlay-value">Gestión VIP, coordinación y contrato bilingüe</span>
+            </div>
+          </div>
+          <div class="overlay-item">
+            <i class="fa-solid fa-ruler-combined"></i>
+            <div>
+              <span class="overlay-label">Superficie referencial</span>
+              <span class="overlay-value">620 m² construidos / 2.200 m² terreno</span>
+            </div>
+          </div>
+          <a href="#contacto" class="overlay-btn">Ver más detalles</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===================== CLIENTES ===================== -->
+  <section id="clientes" class="clientes-section">
+    <div class="clientes-header">
+      <p class="section-eyebrow">Confianza comprobada</p>
+      <h2 class="section-title">Clientes que respaldan nuestra trayectoria</h2>
+      <p class="clientes-subtitle">Empresas e instituciones que han confiado en BGI Propiedades para sus operaciones más importantes.</p>
+    </div>
+    <div class="carousel-wrapper">
+      <div class="carousel-track" id="carouselTrack">
+        <!-- Set 1 -->
+        <div class="client-logo"><img src="https://logo.clearbit.com/bci.cl" alt="BCI" /><span>BCI</span></div>
+        <div class="client-logo"><img src="https://logo.clearbit.com/santander.cl" alt="Santander" /><span>Santander</span></div>
+        <div class="client-logo"><img src="https://logo.clearbit.com/cbre.com" alt="CBRE" /><span>CBRE</span></div>
+        <div class="client-logo"><img src="https://logo.clearbit.com/colliers.com" alt="Colliers" /><span>Colliers</span></div>
+        <div class="client-logo"><img src="https://logo.clearbit.com/jll.com" alt="JLL" /><span>JLL</span></div>
+        <div class="client-logo"><img src="https://logo.clearbit.com/sothebys.com" alt="Sotheby's" /><span>Sotheby's</span></div>
+        <div class="client-logo"><img src="https://logo.clearbit.com/cushmanwakefield.com" alt="Cushman" /><span>Cushman & Wakefield</span></div>
+        <div class="client-logo"><img src="https://logo.clearbit.com/bancochile.cl" alt="Banco de Chile" /><span>Banco de Chile</span></div>
+        <!-- Set 2 (duplicado para loop infinito) -->
+        <div class="client-logo"><img src="https://logo.clearbit.com/bci.cl" alt="BCI" /><span>BCI</span></div>
+        <div class="client-logo"><img src="https://logo.clearbit.com/santander.cl" alt="Santander" /><span>Santander</span></div>
+        <div class="client-logo"><img src="https://logo.clearbit.com/cbre.com" alt="CBRE" /><span>CBRE</span></div>
+        <div class="client-logo"><img src="https://logo.clearbit.com/colliers.com" alt="Colliers" /><span>Colliers</span></div>
+        <div class="client-logo"><img src="https://logo.clearbit.com/jll.com" alt="JLL" /><span>JLL</span></div>
+        <div class="client-logo"><img src="https://logo.clearbit.com/sothebys.com" alt="Sotheby's" /><span>Sotheby's</span></div>
+        <div class="client-logo"><img src="https://logo.clearbit.com/cushmanwakefield.com" alt="Cushman" /><span>Cushman & Wakefield</span></div>
+        <div class="client-logo"><img src="https://logo.clearbit.com/bancochile.cl" alt="Banco de Chile" /><span>Banco de Chile</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACTO ===================== -->
+  <section id="contacto" class="contacto-section">
+    <div class="contacto-inner">
+      <div class="contacto-info">
+        <p class="section-eyebrow">Escríbenos</p>
+        <h2 class="section-title">¿Tienes una propiedad<br />o un proyecto en mente?</h2>
+        <p class="contacto-desc">Cuéntanos lo que necesitas. Nuestro equipo responde en menos de 24 horas hábiles con una propuesta personalizada.</p>
+        <div class="contacto-items">
+          <div class="contacto-item">
+            <i class="fa-solid fa-phone"></i>
+            <span>+56 9 9999 9999</span>
+          </div>
+          <div class="contacto-item">
+            <i class="fa-solid fa-envelope"></i>
+            <span>contacto@bgipropiedades.cl</span>
+          </div>
+          <div class="contacto-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>Av. Apoquindo 4501, Las Condes, Santiago</span>
+          </div>
+        </div>
+      </div>
+      <div class="contacto-form-wrapper">
+        <form id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="nombre">Nombre y apellido</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Ej: Juan Pérez" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Correo electrónico</label>
+              <input type="email" id="email" name="email" placeholder="tu@correo.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="+56 9 XXXX XXXX" />
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Cuéntanos sobre tu propiedad o proyecto..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+            <span id="btnText">Enviar mensaje</span>
+            <i class="fa-solid fa-paper-plane" id="btnIcon"></i>
+          </button>
+          <div id="formMessage" class="form-message"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-col footer-brand">
+        <div class="footer-logo">
+          <span class="logo-mark">BGI</span>
+          <span class="logo-text">Propiedades</span>
+        </div>
+        <p class="footer-tagline">Gestión inmobiliaria de alto valor para clientes que exigen excelencia.</p>
+        <p class="footer-sub">Miembro activo de la Asociación de Corredores de Propiedades de Chile.</p>
+        <div class="footer-social">
+          <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="mailto:contacto@bgipropiedades.cl" aria-label="Correo electrónico"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-col footer-about">
+        <h4 class="footer-title">Nuestra filosofía</h4>
+        <p class="footer-text">En BGI Propiedades creemos que cada operación es única. Nuestro enfoque combina análisis de mercado riguroso, relaciones de confianza y una red de contactos exclusiva para asegurar que cada cliente obtenga el mejor resultado posible, en el menor tiempo.</p>
+      </div>
+
+      <div class="footer-col footer-contact">
+        <h4 class="footer-title">Contacto directo</h4>
+        <a href="https://maps.google.com/?q=Av.+Apoquindo+4501+Las+Condes" target="_blank" rel="noopener" class="footer-link">
+          <i class="fa-solid fa-location-dot"></i> Ver en Google Maps
+        </a>
+        <a href="https://wa.me/56999999999" target="_blank" rel="noopener" class="footer-link">
+          <i class="fa-brands fa-whatsapp"></i> Escribir por WhatsApp
+        </a>
+        <p class="footer-contact-item"><i class="fa-solid fa-phone"></i> +56 9 9999 9999</p>
+        <p class="footer-contact-item"><i class="fa-solid fa-envelope"></i> contacto@bgipropiedades.cl</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 BGI Propiedades. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- ===================== WHATSAPP FLOTANTE ===================== -->
+  <a href="https://wa.me/56999999999" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Contactar por WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
